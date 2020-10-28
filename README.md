@@ -7,14 +7,12 @@ Let's take what we know about Python requests, APIs, and JSON traversals to answ
 In this example, I'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I'll be utilizing a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.
 
 1. Create a series of scatter plots to showcase the following relationships:
-
 </br>- Temperature (F) vs. Latitude
 </br>- Humidity (%) vs. Latitude
 </br>- Cloudiness (%) vs. Latitude
 </br>- Wind Speed (mph) vs. Latitude
 
 2. Run linear regression on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
-
 </br>- Northern Hemisphere - Temperature (F) vs. Latitude
 </br>- Southern Hemisphere - Temperature (F) vs. Latitude
 </br>- Northern Hemisphere - Humidity (%) vs. Latitude
@@ -25,7 +23,6 @@ In this example, I'll be creating a Python script to visualize the weather of 50
 </br>- Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
 The final notebook must:
-
 </br>- Randomly select at least 500 unique (non-repeat) cities based on latitude and longitude.
 </br>- Perform a weather check on each of the cities using a series of successive API calls.
 </br>- Include a print log of each city as it's being processed with the city number and city name.
