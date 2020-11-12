@@ -4,7 +4,7 @@
 Let's take what we know about Python requests, APIs, and JSON traversals to answer a fundamental question: "What's the weather like as we approach the equator?"
 
 ## Part I - WeatherPy
-In this example, I'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I'll be utilizing a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.
+In this example, I'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I'll be utilizing a simple Python library - citipy, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.
 
 1. I will create a series of scatter plots to showcase the following relationships:
 </br>- Temperature (F) vs. Latitude
